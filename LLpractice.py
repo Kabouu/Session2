@@ -26,3 +26,7 @@ def __len__(self):
         l += 1
         c = c.next
     return l
+
+B = "Wazzah"
+newNode = ListNode(B)
+print(newNode.val)
