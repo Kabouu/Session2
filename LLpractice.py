@@ -1,14 +1,14 @@
 # linkedList practice
-class ListNode: 
+class Node: 
     def __init__(self, val):
         self.val = val
         self.next = None
 def insert(self, val):
-    n = ListNode(val)
+    n = Node(val)
     n.next = self
     return n
 def delete(self, val):
-    s = ListNode("sentinel")
+    s = Node("sentinel")
     s.next = self
     p = s
     c = self
@@ -26,7 +26,3 @@ def __len__(self):
         l += 1
         c = c.next
     return l
-
-B = "Wazzah"
-newNode = ListNode(B)
-print(newNode.val)
