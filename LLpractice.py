@@ -26,3 +26,13 @@ def __len__(self):
         l += 1
         c = c.next
     return l
+
+# merge two sorted linked lists
+# what type of list, singular, doubly, circular?
+# return linkedlist
+# this case singular linkedlist, integer values
+# validation of input type:
+#   always integer
+#   Will one or both of the LL be empty
+def merger(first, second):
+    print("ee ya")
