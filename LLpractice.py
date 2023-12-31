@@ -34,5 +34,20 @@ def __len__(self):
 # validation of input type:
 #   always integer
 #   Will one or both of the LL be empty
-def merger(first, second):
-    print("ee ya")
+
+# could make one array, add the two list's values, sort it
+# then make linked list
+# values = []
+# def addShtuff(third: Node):
+#     if third == None:
+#         return
+#     values.append(third.val)
+#     addShtuff(third.next)
+# def merger(self,first: Node, second: Node):
+#     addShtuff(first)
+#     addShtuff(second)
+#     values.sort()
+#     head = Node()
+#     for x in values:
+#         head.next = x
+#     return head
